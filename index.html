@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top-Bancadas | Pedras & Acabamentos</title>
+    <meta name="description"
+        content="Superfícies que contam histórias. Bancadas em pedra natural, porcelanatos grandes formatos e cubas esculpidas.">
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Top-Bancadas Home">
+                <div class="logo-text">
+                    <span class="logo-title">Top-Bancadas</span>
+                    <span class="logo-subtitle">PEDRAS & ACABAMENTOS</span>
+                </div>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="#sobre" class="nav-link">SOBRE</a></li>
+                    <li><a href="#especialidades" class="nav-link">ESPECIALIDADES</a></li>
+                    <li><a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="nav-link">CONTATO</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" aria-label="Abrir menu" aria-expanded="false">
+                &#9776;
+            </button>
+            <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary" aria-label="Solicitar Orçamento">SOLICITAR ORÇAMENTO</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="eyebrow">PAIAL-SC</div>
+                    <h1 class="hero-title">
+                        Superfícies <br> que <br> <em>contam <br> histórias.</em>
+                    </h1>
+                    <p class="hero-description">
+                        Bancadas em pedra natural, porcelanatos grandes formatos, cubas esculpidas e envelopamento de
+                        móveis — artesanato que transforma o espaço em lar.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">SOLICITAR ORÇAMENTO&rarr;</a>
+                        <a href="#especialidades" class="btn btn-outline">VER ESPECIALIDADES</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- Irregular shape container -->
+                    <div class="hero-shape">
+                        <img src="hero-stone.png" alt="Bancada de porcelanato claro com dois dispensers de sabonete"
+                            class="hero-image" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator" aria-hidden="true">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <!-- Nossa História Section -->
+        <section id="sobre" class="history">
+            <div class="container history-container">
+                <div class="history-content">
+                    <div class="eyebrow">NOSSA HISTÓRIA</div>
+                    <h2 class="section-title">
+                        Artesanato e precisão <br> <em>em cada detalhe.</em>
+                    </h2>
+                    <div class="history-text">
+                        <p>A Top-Bancadas nasceu do amor pelo design e pelo ofício bem feito. Localizada em Paial-SC, crescemos como referência em cortes especiais de porcelanatos e pedras para acabamentos premium em projetos residenciais e comerciais de alto padrão.</p>
+                        <p>Nossa equipe de especialistas trabalha com equipamentos precisos e materiais rigorosamente selecionados. Cada projeto é acompanhado do início ao fim, com a atenção e dedicação que só a paixão verdadeira pelo ofício proporciona.</p>
+                    </div>
+                    <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">FALAR COM A EQUIPE</a>
+                </div>
+                <div class="history-images">
+                    <div class="history-img-large">
+                        <img src="ilha-cozinha-marmorizada.jpeg"
+                            alt="Ampla ilha de cozinha em porcelanato claro com veios escuros" loading="lazy">
+                    </div>
+                    <div class="history-img-small-group">
+                        <img src="escada-porcelanato-1.jpeg" alt="Detalhe de textura em pedra bege" loading="lazy"
+                            class="history-img-small top">
+                        <img src="painel-granilite-1.jpeg" alt="Lareira revestida com pedras rústicas" loading="lazy"
+                            class="history-img-small bottom">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especialidades Section -->
+        <section id="especialidades" class="specialties">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="eyebrow center">ESPECIALIDADES</div>
+                    <h2 class="section-title text-center">
+                        Cinco formas de transformar <br> <em>seu espaço.</em>
+                    </h2>
+                </div>
+
+                <div class="tabs-container">
+                    <!-- Tab Navigation -->
+                    <div class="tabs-nav" role="tablist" aria-label="Especialidades">
+                        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-1"
+                            id="btn-tab-1">Bancadas</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-2"
+                            id="btn-tab-2">Porcelanatos</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-3"
+                            id="btn-tab-3">Cubas Esculpidas</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-4"
+                            id="btn-tab-4">Acabamentos</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-5"
+                            id="btn-tab-5">Envelopamento</button>
+                    </div>
+
+                    <!-- Tab Content 1 -->
+                    <div class="tab-content active" id="tab-1" role="tabpanel" aria-labelledby="btn-tab-1">
+                        <div class="tab-grid">
+                            <div class="tab-image">
+                                <img src="Bancada1.jpeg"
+                                    alt="Cozinha ampla com móveis de madeira e bancada de pedra natural" loading="lazy">
+                            </div>
+                            <div class="tab-info">
+                                <div class="eyebrow">01 • PORCELANATO • PEDRAS</div>
+                                <h3>Bancadas</h3>
+                                <p>Fabricamos bancadas sob medida a partir das mais nobres pedras naturais. Corte a
+                                    laser, polimento artesanal e instalação milimétrica — cada bancada é única como a
+                                    pedra que a originou.</p>
+                                <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">SOLICITAR ORÇAMENTO &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab Content 2 (Hidden for brevity, duplicated structure in real project) -->
+                    <div class="tab-content" id="tab-2" role="tabpanel" aria-labelledby="btn-tab-2" hidden>
+                        <div class="tab-grid">
+                            <div class="tab-image">
+                                <img src="painel-arcos-granilite.jpeg"
+                                    alt="Piso e parede em porcelanato de grande formato" loading="lazy">
+                            </div>
+                            <div class="tab-info">
+                                <div class="eyebrow">02 • GRANDES FORMATOS</div>
+                                <h3>Porcelanatos</h3>
+                                <p>Instalação precisa de porcelanatos em grandes formatos, garantindo visual contínuo e
+                                    menos rejunte para um acabamento impecável.</p>
+                                <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">SOLICITAR ORÇAMENTO &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-3" role="tabpanel" aria-labelledby="btn-tab-3" hidden>
+                        <div class="tab-grid">
+                            <div class="tab-image">
+                                <img src="cuba-esculpida-branca-4.jpeg"
+                                    alt="Cuba esculpida na própria pedra do banheiro" loading="lazy">
+                            </div>
+                            <div class="tab-info">
+                                <div class="eyebrow">03 • DESIGN EXCLUSIVO</div>
+                                <h3>Cubas Esculpidas</h3>
+                                <p>Cubas perfeitamente esculpidas no mesmo material da bancada para um visual unificado,
+                                    minimalista e altamente sofisticado.</p>
+                                <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">SOLICITAR ORÇAMENTO &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-4" role="tabpanel" aria-labelledby="btn-tab-4" hidden>
+                        <div class="tab-grid">
+                            <div class="tab-image">
+                                <img src="balcao-comercial-granilite-1.jpeg"
+                                    alt="Detalhe de acabamento de borda em pedra" loading="lazy">
+                            </div>
+                            <div class="tab-info">
+                                <div class="eyebrow">04 • DETALHES QUE IMPORTAM</div>
+                                <h3>Acabamentos</h3>
+                                <p>Rodapés, soleiras, nichos e bordas trabalhadas com o máximo nível de detalhismo para
+                                    valorizar cada canto do seu projeto.</p>
+                                <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">SOLICITAR ORÇAMENTO &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="tab-5" role="tabpanel" aria-labelledby="btn-tab-5" hidden>
+                        <div class="tab-grid">
+                            <div class="tab-image">
+                                <img src="bancada-cuba-apoio.jpeg" alt="Móvel envelopado com lâmina de pedra"
+                                    loading="lazy">
+                            </div>
+                            <div class="tab-info">
+                                <div class="eyebrow">05 • RENOVAÇÃO</div>
+                                <h3>Envelopamento</h3>
+                                <p>Técnicas avançadas para revestir móveis e superfícies existentes com lâminas ultra
+                                    finas de pedra e porcelanato.</p>
+                                <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary">SOLICITAR ORÇAMENTO &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Como Trabalhamos Section -->
+        <section class="process">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="eyebrow center light">COMO TRABALHAMOS</div>
+                    <h2 class="section-title text-center light">
+                        Do projeto à entrega, <br> <em>com cuidado em cada passo.</em>
+                    </h2>
+                </div>
+
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-header">
+                            <div class="step-line"></div>
+                            <span class="step-number">01</span>
+                        </div>
+                        <h3>Consultoria</h3>
+                        <p>Visita técnica gratuita, levantamento de medidas e conversa sobre materiais, prazos e
+                            expectativas.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-header">
+                            <div class="step-line"></div>
+                            <span class="step-number">02</span>
+                        </div>
+                        <h3>Seleção</h3>
+                        <p>Acesso ao nosso showroom com amostras de porcelanatos e pedras.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-header">
+                            <div class="step-line"></div>
+                            <span class="step-number">03</span>
+                        </div>
+                        <h3>Fabricação</h3>
+                        <p>Corte, lapidação e polimento com máquinas de alta precisão e acompanhamento de mestres
+                            artesãos.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-header">
+                            <div class="step-line"></div>
+                            <span class="step-number">04</span>
+                        </div>
+                        <h3>Entrega</h3>
+                        <p>Instalação por equipe especializada, vistoria final com cliente e garantia de 2 anos em mão
+                            de obra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="eyebrow center">DEPOIMENTOS</div>
+                    <h2 class="section-title text-center">
+                        O que nossos clientes <br> <em>sentem ao chegar em casa.</em>
+                    </h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">A Top-Bancadas entregou exatamente o que eu sonhei para minha
+                            cliente. A bancada em quartzito ficou absolutamente perfeita — detalhe, polimento e prazo
+                            impecáveis.</p>
+                        <div class="author">
+                            <div class="author-avatar" style="background-color: #9c6c44;">A</div>
+                            <div class="author-info">
+                                <strong>Ana Beatriz M.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">Trabalho com eles há 4 anos em empreendimentos residenciais.
+                            Qualidade consistente, equipe comprometida e o acabamento que faz o apê vender mais rápido.
+                        </p>
+                        <div class="author">
+                            <div class="author-avatar" style="background-color: #8c5c34;">R</div>
+                            <div class="author-info">
+                                <strong>Rodrigo C.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p class="testimonial-text">A cuba esculpida que encomendei para um projeto se tornou o ponto
+                            focal do banheiro. Minha cliente chora de emoção toda vez que conta para alguém. Trabalho de
+                            arte.</p>
+                        <div class="author">
+                            <div class="author-avatar" style="background-color: #a67449;">M</div>
+                            <div class="author-info">
+                                <strong>Mariana F.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contato" class="cta">
+            <div class="cta-bg">
+                <img src="bancada-branca-extensa.jpeg" alt="" role="presentation" loading="lazy">
+            </div>
+            <div class="container cta-container relative">
+                <div class="eyebrow center">PRONTO PARA COMEÇAR?</div>
+                <h2 class="section-title text-center">
+                    Seu lar merece o melhor das <br> <em>pedras naturais.</em>
+                </h2>
+                <p class="cta-text">
+                    Agende uma visita gratuita. Nossa equipe vai ao seu espaço, tira medidas e apresenta as melhores
+                    opções de materiais para o seu projeto.
+                </p>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="https://wa.me/554999021490?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os." target="_blank" class="btn btn-primary" style="display: inline-block; padding: 1rem 2rem; font-size: 1.1rem; width: 100%;">
+                        CHAMAR NO WHATSAPP &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section container" style="margin-top: 4rem; margin-bottom: 4rem; text-align: center;">
+            <div class="eyebrow center" style="margin-bottom: 1rem;">COMO CHEGAR</div>
+            <h2 class="section-title text-center" style="margin-bottom: 2rem;">
+                Nossa <em>Localização</em>
+            </h2>
+            <iframe src="https://maps.google.com/maps?q=Centro,+Paial+-+SC&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="350"
+                style="border:0; max-width: 800px; border-radius: 12px; margin: 0 auto; display: block; box-shadow: 0 4px 20px rgba(0,0,0,0.08);"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <span>Top-Bancadas</span>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 Top-Bancadas Pedras & Acabamentos. Paial-SC, Brasil.
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram">INSTAGRAM</a>
+                <a href="#" aria-label="WhatsApp">WHATSAPP</a>
+                <a href="#" aria-label="Houzz">HOUZZ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
